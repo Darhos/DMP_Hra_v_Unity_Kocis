@@ -1,0 +1,1383 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e62d8d078be49cf8ad9ebe2efcaeb2, type: 3}
+  m_Name: The mystery case of detective Gordon_SpeechManager
+  m_EditorClassIdentifier: 
+  scrollSubtitles: 1
+  scrollNarration: 0
+  textScrollSpeed: 50
+  textScrollCLip: {fileID: 0}
+  narrationTextScrollCLip: {fileID: 0}
+  playScrollAudioEveryCharacter: 1
+  displayForever: 0
+  displayNarrationForever: 0
+  playAnimationForever: 1
+  canSkipWithMouseClicks: 1
+  minimumDisplayTime: 1
+  screenTimeFactor: 0.3
+  allowSpeechSkipping: 1
+  allowGameplaySpeechSkipping: 0
+  skipThresholdTime: 0
+  endScrollBeforeSkip: 0
+  scrollingTextFactorsLength: 0
+  useAssetBundles: 0
+  searchAudioFiles: 1
+  autoNameSpeechFiles: 0
+  autoSpeechFolder: Speech
+  autoLipsyncFolder: Lipsync
+  forceSubtitles: 1
+  translateAudio: 0
+  fallbackAudio: 0
+  keepTextInBuffer: 0
+  relegateBackgroundSpeechAudio: 0
+  usePlayerRealName: 0
+  separateSharedPlayerAudio: 0
+  placeAudioInSubfolders: 0
+  separateLines: 0
+  separateLinePause: 1
+  resetExpressionsEachLine: 1
+  lines:
+  - isPlayer: 1
+    lineID: 104
+    scene: intro_scene
+    owner: Player
+    text: "Halo? Tady kancel\xE1\u0159 detektiva Gordona, kdo je u telefonu?"
+    description: 'From: OnStart'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 13e431c3b49975340b33c6b761041896, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: OnStart_47640_
+  - isPlayer: 0
+    lineID: 105
+    scene: intro_scene
+    owner: Telefon
+    text: "Zdrav\xEDm detektive, cht\u011Bl bych nahl\xE1sit kr\xE1de\u017E!"
+    description: 'From: OnStart'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: b231746ee01c8954e9e4ff1f256b7a30, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 1
+    orderPrefix: OnStart_47640_
+  - isPlayer: 0
+    lineID: 106
+    scene: intro_scene
+    owner: Telefon
+    text: "N\u011Bkdo v noci ukradl m\u016Fj tajn\xFD rodinn\xFD recept na koktejl
+      La Cucaracha."
+    description: 'From: OnStart'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 2da0f50a6899ee944ba2b02ba084cdfc, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 2
+    orderPrefix: OnStart_47640_
+  - isPlayer: 0
+    lineID: 107
+    scene: intro_scene
+    owner: Telefon
+    text: "V\xEDc v\xE1m pov\xEDm a\u017E na m\xEDst\u011B, p\u0159ije\u010Fte za
+      mnou do baru na rohu ulice."
+    description: 'From: OnStart'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 3fc4bbb9a92876c48923aaefb293b4ff, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 3
+    orderPrefix: OnStart_47640_
+  - isPlayer: 1
+    lineID: 143
+    scene: intro_scene
+    owner: Player
+    text: "Rozum\xEDm, hned se vyd\xE1m na m\xEDsto \u010Dinu."
+    description: 'From: OnStart'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: e91648ef3270ee94d8c8ec17d869ce5a, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 4
+    orderPrefix: OnStart_47640_
+  - isPlayer: 1
+    lineID: 144
+    scene: intro_scene
+    owner: Player
+    text: "Tak\u017Ee tady m\xE1me ukraden\xFD rodinn\xFD recept. M\u011Bl bych se
+      vydat na m\xEDsto a zjistit v\xEDce."
+    description: 'From: OnStart'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: e9fa005a1d0643741a6aad7e974458ba, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 5
+    orderPrefix: OnStart_47640_
+  - isPlayer: 0
+    lineID: 108
+    scene: intro_scene
+    owner: 
+    text: bushes
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 145
+    scene: bar_scene
+    owner: Player
+    text: "Zdrav\xEDm, jsem detektiv Gordon. Jsem tady kv\u016Fli tomu ukraden\xE9mu
+      receptu, vy jste mi volal?"
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: e70a5cd4903c82940a43d11eb204edb5, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 146
+    scene: bar_scene
+    owner: Barman
+    text: "Zdrav\xED\u010Dko, j\xE1 jsem El Koukout. \u0160\xE9f u\u017E m\u011B informoval
+      \u017Ee p\u0159ijdete. To on v\xE1m volal. S celou situac\xED v\xE1s sezn\xE1m\xEDm."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 8ff4876a950d05b4c8e15cb1f1ea7359, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 1
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 1
+    lineID: 147
+    scene: bar_scene
+    owner: Player
+    text: "Tak pov\xEDdejte."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: b1dbe5982c1421d43a1e6918ca291a07, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 2
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 148
+    scene: bar_scene
+    owner: Barman
+    text: "No to jsem tady byl kolem jeden\xE1ct\xFD, t\u011Bsn\u011B p\u0159ed zav\xEDra\u010Dkou,
+      sly\u0161el jsem n\u011Bjakej rand\xE1l hnedka za pajzlem."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: a4c82e9ad41964945a7fed470a769069, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 3
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 149
+    scene: bar_scene
+    owner: Barman
+    text: "Zadn\xEDm vchodem jsem to \u0161el omrknout ale vid\u011Bl jsem jen zatoulanou
+      ko\u010Dku jak se hrabe v odpadc\xEDch. V tom jsem ale sly\u0161el r\xE1mus
+      v baru."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 571077d9626d9394ebf572c0bf5b37a8, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 4
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 150
+    scene: bar_scene
+    owner: Barman
+    text: "Kdy\u017E sem se vr\xE1til zp\u011Bt do baru, vid\u011Bl jsem jak n\u011Bkdo
+      prch\xE1 do fu\u010D hlavn\xEDm vchodem. Za pultem byly st\u0159epy z rozml\xE1cen\xFDch
+      lahv\xED. Hnedka jsem \u0161el zkontrolovat, jestli n\u011Bkdo nevykradl pokladnu,
+      tam ale nic nezmizelo."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 4b93479bbb77c2347abf0e04a480ddd5, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 5
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 151
+    scene: bar_scene
+    owner: Barman
+    text: "Pak jsem pomyslel na tajn\xFD recept zam\u010Den\xFD ve sk\u0159\xED\u0148ce
+      pod pultem, z\xE1mek byl vyp\xE1\u010Den\xFD a recept byl b\u016Fh v\xED kde."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 3340d4bced8e7a74d98558092ef1f04d, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 6
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 1
+    lineID: 152
+    scene: bar_scene
+    owner: Player
+    text: "Zaj\xEDmav\xE9, je tu je\u0161t\u011B n\u011Bco o \u010Dem bych m\u011Bl
+      v\u011Bd\u011Bt?"
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 43ef5ece64ce78f4fbf76f148906863d, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 7
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 153
+    scene: bar_scene
+    owner: Barman
+    text: "Ano, ten uli\u010Dn\xEDk po sob\u011B nechal vzkaz. Koukejte. Jako by se
+      mi je\u0161t\u011B cht\u011Bl vysm\xE1t. Parchant jeden!"
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 5730091fe3c3bc94b80ffe0d970c4f7a, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 8
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 1
+    lineID: 154
+    scene: bar_scene
+    owner: Player
+    text: "A co jste ud\u011Blal potom?"
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 0fcfe456b86840842a518c32c4dfe514, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 9
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 155
+    scene: bar_scene
+    owner: Barman
+    text: "Vyb\u011Bhl jsem na ulici a rozhl\xE9dl se jestli n\u011Bkoho neuvid\xEDm."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: c4e8759293ff0e74ba07d544bac93958, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 10
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 1
+    lineID: 156
+    scene: bar_scene
+    owner: Player
+    text: "A vid\u011Bl jste n\u011Bkoho?"
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 0cab7f03e7a8373498a816ff1cb09006, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 11
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 157
+    scene: bar_scene
+    owner: Barman
+    text: "U\u017E ne."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 5157f0436e81a704f90664c776ef4f7a, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 12
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 1
+    lineID: 158
+    scene: bar_scene
+    owner: Player
+    text: "Co jste tedy ud\u011Blal nakonec?"
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: c36c76c3ccee04944b4f766a9a8d393e, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 13
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 159
+    scene: bar_scene
+    owner: Barman
+    text: "Volal jsem \u0161\xE9fovi, ten p\u0159ijel co nejd\u0159\xEDve mohl. To
+      mohlo b\xFDt tak po zhruba 10 minut\xE1ch."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 2f24d1abf5151bf4291e241ab55a5faa, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 14
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 160
+    scene: bar_scene
+    owner: Barman
+    text: "\u0160\xE9f si to tady omrknul, zav\u0159eli jsme bar a druh\xFD den v\xE1m
+      hned r\xE1no zavolal."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 492812fa85512284aa6282d000328574, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 15
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 1
+    lineID: 161
+    scene: bar_scene
+    owner: Player
+    text: "D\u011Bkuji to bude prozat\xEDm sta\u010Dit."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: a95fc01175648db4eac5d4b963a50c71, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 16
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 162
+    scene: bar_scene
+    owner: Barman
+    text: "Za m\xE1lo, hlavn\u011B si tady nezapome\u0148te ten dopis."
+    description: 'From: Promluvit si s Barmanem: Talk to'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 8300000, guid: 40034e7debe523148834fcf49a798c19, type: 3}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 17
+    orderPrefix: 'Promluvit si s Barmanem: Talk to_48270_'
+  - isPlayer: 0
+    lineID: 109
+    scene: bar_scene
+    owner: 
+    text: "Vyj\xEDt ven"
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 110
+    scene: bar_scene
+    owner: 
+    text: Promluvit si s Barmanem
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 111
+    scene: bar_scene (outside)
+    owner: 
+    text: "K policejn\xED stanici"
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 112
+    scene: bar_scene (outside)
+    owner: 
+    text: K parku
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 113
+    scene: bar_scene (outside)
+    owner: 
+    text: "Vej\xEDt do baru"
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 1
+    lineID: 114
+    scene: police_station_scene (outside)
+    owner: Player
+    text: "Dopravn\xED zna\u010Dka, co v\xEDc dodat?"
+    description: 'From: Stopka: Look at'
+    textType: 0
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: 0
+    orderID: 0
+    orderPrefix: 'Stopka: Look at_49494_'
+  - isPlayer: 0
+    lineID: 115
+    scene: police_station_scene (outside)
+    owner: 
+    text: "Vyl\xE9zt po \u017Eeb\u0159\xEDku"
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 116
+    scene: police_station_scene (outside)
+    owner: 
+    text: Stopka
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 117
+    scene: police_station_scene (outside)
+    owner: 
+    text: K baru
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 118
+    scene: police_station_scene (outside)
+    owner: 
+    text: "Vej\xEDt na policejn\xED stanice"
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 119
+    scene: police_station_scene (outside)
+    owner: 
+    text: K parku
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 120
+    scene: police_station_scene
+    owner: 
+    text: Policista
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 121
+    scene: police_station_scene
+    owner: 
+    text: Promluvit si s policistou
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 122
+    scene: police_station_scene
+    owner: 
+    text: "Vyj\xEDt ven"
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 123
+    scene: park_scene
+    owner: 
+    text: K baru
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 124
+    scene: park_scene
+    owner: 
+    text: "K policejn\xED stanici"
+    description: 
+    textType: 1
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 125
+    scene: 
+    owner: 
+    text: Use
+    description: 
+    textType: 6
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 126
+    scene: 
+    owner: 
+    text: on
+    description: 
+    textType: 6
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 127
+    scene: 
+    owner: 
+    text: Give
+    description: 
+    textType: 6
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 128
+    scene: 
+    owner: 
+    text: to
+    description: 
+    textType: 6
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 129
+    scene: 
+    owner: 
+    text: Walk to
+    description: 
+    textType: 6
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 130
+    scene: 
+    owner: 
+    text: Use
+    description: 
+    textType: 4
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 131
+    scene: 
+    owner: 
+    text: Talk to
+    description: 
+    textType: 4
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 132
+    scene: 
+    owner: 
+    text: Look at
+    description: 
+    textType: 4
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 133
+    scene: 
+    owner: 
+    text: Go
+    description: 
+    textType: 4
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 66
+    scene: 
+    owner: ResumeButton
+    text: Resume
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 67
+    scene: 
+    owner: OptionsButton
+    text: Options
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 68
+    scene: 
+    owner: SaveButton
+    text: Save
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 69
+    scene: 
+    owner: LoadButton
+    text: Load
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 134
+    scene: 
+    owner: ProfilesButton
+    text: Profiles
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 70
+    scene: 
+    owner: QuitButton
+    text: Quit
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 71
+    scene: 
+    owner: TitleLabel
+    text: Options
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 72
+    scene: 
+    owner: SpeechSlider
+    text: Speech volume
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 73
+    scene: 
+    owner: MusicSlider
+    text: Music volume
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 74
+    scene: 
+    owner: SFXSlider
+    text: SFX volume
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 75
+    scene: 
+    owner: LanguageCycle
+    text: Language
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 76
+    scene: 
+    owner: SubtitlesToggle
+    text: Subtitles
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 135
+    scene: 
+    owner: SubtitlesToggle
+    text: On
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 136
+    scene: 
+    owner: SubtitlesToggle
+    text: Off
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 77
+    scene: 
+    owner: BackButton
+    text: Back
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 78
+    scene: 
+    owner: TitleLabel
+    text: Save game
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 88
+    scene: 
+    owner: SavesList
+    text: New save
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 79
+    scene: 
+    owner: BackButton
+    text: Back
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 80
+    scene: 
+    owner: TitleLabel
+    text: Load game
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 81
+    scene: 
+    owner: BackButton
+    text: Back
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 137
+    scene: 
+    owner: TitleLabel
+    text: Profiles
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 138
+    scene: 
+    owner: CurrentLabel
+    text: 'Current:'
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 139
+    scene: 
+    owner: NewButton
+    text: Create new profile
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 140
+    scene: 
+    owner: BackButton
+    text: Back
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 84
+    scene: 
+    owner: MenuButton
+    text: Menu
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 89
+    scene: 
+    owner: ContainerLabel
+    text: Container
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 90
+    scene: 
+    owner: CloseButton
+    text: Close
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 91
+    scene: 
+    owner: TakeAllButton
+    text: Take all
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 92
+    scene: 
+    owner: InventoryLabel
+    text: Inventory
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 99
+    scene: 
+    owner: CreateButton
+    text: Create
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 100
+    scene: 
+    owner: CloseButton
+    text: Close
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 101
+    scene: 
+    owner: IngredientsLabel
+    text: Ingredients
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 102
+    scene: 
+    owner: InventoryLabel
+    text: Inventory
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 103
+    scene: 
+    owner: OutputLabel
+    text: Output
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 141
+    scene: 
+    owner: PageText
+    text: Page text goes here.
+    description: 
+    textType: 7
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  - isPlayer: 0
+    lineID: 142
+    scene: 
+    owner: CloseButton
+    text: Close
+    description: 
+    textType: 5
+    translationText: []
+    customAudioClip: {fileID: 0}
+    customLipsyncFile: {fileID: 0}
+    customTranslationAudioClips: []
+    customTranslationLipsyncFiles: []
+    tagID: -1
+    orderID: -1
+    orderPrefix: 
+  languages:
+  - Original
+  languageIsRightToLeft: 00
+  languageAudioAssetBundles:
+  - 
+  languageLipsyncAssetBundles:
+  - 
+  ignoreOriginalText: 0
+  sfxDucking: 0.83
+  musicDucking: 0.835
+  lipSyncMode: 0
+  lipSyncOutput: 0
+  phonemes: []
+  lipSyncSpeed: 1
+  maxID: 162
+  speechIDRecycling: 0
+  sceneFiles:
+  - Assets/Scenes/intro_scene.unity
+  - Assets/Scenes/bar_scene.unity
+  - Assets/Scenes/bar_scene (outside).unity
+  - Assets/Scenes/police_station_scene (outside).unity
+  - Assets/Scenes/police_station_scene.unity
+  - Assets/Scenes/park_scene.unity
+  - Assets/Scenes/outro_scene.unity
+  activeLineID: 148
+  mergeMatchingSpeechIDs: 0
+  useSpeechTags: 0
+  speechTags: []
+  previewMenuName: Subtitles
